@@ -1,0 +1,167 @@
+body,
+body *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Open Sans";
+}
+
+body,
+input{
+    color: rgb(red, green, blue);
+    background-color:whitesmoke;
+}
+
+.header{
+    font-family: 'Sacramento', cursive;
+    border-style: solid, black;
+}
+.header_style{
+    font-size: 40px;
+    font-style:italic;
+    font-weight: lighter;
+    background-color:whitesmoke;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid, black;
+}
+form{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.field{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding:1rem;
+    width:50%;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.checkbox-wrapper{
+    width: 50%;
+    padding:1rem;
+    margin:1rem;
+    display:flex;
+    flex-direction:column;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+    button{
+        position: relative;
+      outline: none;
+      text-decoration: none;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      text-transform: lowercase;
+      height: 60px;
+      width: 210px;
+      opacity: 1;
+      background-color: #ffffff;
+      border: 1px solid,black;
+        font-family: 'Quicksand', sans-serif;
+    
+}
+
+
+.form_container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+  }
+  
+  .button{
+       font-size: 25px;
+      }
+
+  .email_entry{
+    display:flex;
+    flex-direction:column-reverse;
+    font-family: 'Quicksand', sans-serif;
+
+   
+}
+
+/* Mobile view */
+
+@media(min-width:568px){
+    .pg_container{
+        width:100% ;
+ }
+}
+
+ /* Tablet view */
+ @media (min-width: 1024px){
+    .form_container{
+        margin-top:30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .header_style{
+        font-size: 40px;
+        font-style:italic;
+        font-weight: lighter;
+        background-color:whitesmoke;
+        width: 100%;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 1400px){
+    .form_container{
+        margin-top:30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .header_style{
+        font-size: 40px;
+        font-style:italic;
+        font-weight: lighter;
+        background-color:whitesmoke;
+        width: 100%;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    form{
+        display: flex;
+        flex-wrap:wrap-reverse;
+    }
+}
+
+
+
+

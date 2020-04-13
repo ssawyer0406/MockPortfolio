@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+<link rel="stylesheet" href="gallery.css">
+<link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+<body>
+    <!-- Header section -->
+    <div class="page_container">
+        <header class= "header">
+            <h1 class="header-title">Gallery View</h1>
+            <nav class="header-nav">
+                <ul class="header_nav_ul">
+                   
+                   
+                    <li class="header_nav_li">
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li class="header_nav_li">
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="header_nav_li">
+                        <a href="articleList.html">Blog</a>
+
+                </ul>
+            </nav>
+        </header>
+
+    <!-- Gallery section -->
+        
+        
+        <main class="main">
+            
+            <div class="image_container">
+                <img src="./images/dapper_low_fidelity_wireframes_minishot.png" alt="portfolio" class="responisive_portfolio">
+            </div>
+
+            <div class="image_container">
+                <img src="images/candy.png" alt="this is candy">
+            </div>
+
+            <div class="image_container">
+                <img src="images/candy.png" alt="this is candy">
+            </div>
+
+            <div class="image_container">
+                <img src="images/candy.png" alt="this is candy">
+            </div>
+
+            <div class="image_container">
+                <img src="images/candy.png" alt="this is candy">
+            </div>
+
+            <div class="image_container">
+                <img src="./images/pinapple_app_low_fidelity_wireframe_minishot.png">
+            </div>
+            </main>
+
+            <picture class="portfolio_pic">
+                <!-- for viewports bigger than 401px -->
+                <source 
+                    media="(min-width: 401px)"
+                    srcset="images/portfolio-pic-big.jpg">
+
+                <!-- for viewports smaller than 401px -->
+                <source
+                    media='(max-width: 400px)'
+                    srcset="images/portfolio-pic-small.jpg">  
+                    
+                <!-- fallback image -->
+                <img src="images/portfolio-pic-small.jpg" alt="">
+            </picture>
+    </div>
+
+</body>
+
+</html

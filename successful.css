@@ -1,0 +1,25 @@
+h1{
+    font-family: 'Sacramento', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 10em;
+
+}
+button{
+    position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: lowercase;
+  height: 60px;
+  width: 210px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid,black;
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+}
